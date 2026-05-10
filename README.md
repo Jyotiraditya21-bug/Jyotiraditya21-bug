@@ -26,6 +26,12 @@ Obsessed with **LLMs, GenAI, Agentic AI, and MCP** — building systems that thi
 
 ---
 
+[![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=6E40C9&width=500&lines=🤖+Agentic+AI+—+LLMs+that+plan+%26+act)](https://git.io/typing-svg)
+[![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=58a6ff&width=500&lines=🔗+RAG+—+retrieval+augmented+generation)](https://git.io/typing-svg)
+[![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=98c379&width=500&lines=🧩+MCP+—+model+context+protocol)](https://git.io/typing-svg)
+[![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=e5c07b&width=500&lines=🧠+Fine+Tuning+—+LoRA+%26+PEFT)](https://git.io/typing-svg)
+[![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=c678dd&width=500&lines=📐+Transformers+—+attention+is+all+you+need)](https://git.io/typing-svg)
+[![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=ff7b72&width=500&lines=⚡+LLMOps+—+deploy+%26+monitor+at+scale)](https://git.io/typing-svg)
 ### 📊 Stats
 
 <div align="center">
