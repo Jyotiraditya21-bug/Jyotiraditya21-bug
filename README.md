@@ -3,10 +3,11 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6E40C9&center=true&vCenter=true&width=500&lines=AI+%7C+GenAI+%7C+Agentic+AI;Deep+Learning+%7C+NLP+%7C+LLMs;Building+MCP+%26+Agentic+Systems;ML+Engineer+in+the+Making+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 > *"Making AI versatile like me :)"*
->
-> reach me out at : Jyotiraditya.is-a.dev
+
 
 </div>
+
+ reach me out at : Jyotiraditya.is-a.dev
 
 **B.E. AI/ML @ LDCE Ahmedabad** · 6th Sem · Gujarat 🇮🇳
 
