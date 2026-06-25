@@ -7,7 +7,7 @@
 
 </div>
 
- reach me out at : Jyotiraditya.is-a.dev
+
 
 **B.E. AI/ML @ LDCE Ahmedabad** · 6th Sem · Gujarat 🇮🇳
 
