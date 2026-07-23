@@ -16,12 +16,12 @@ interfaces.
 
 | Project | Engineering focus | Demo |
 | --- | --- | --- |
-| [OMNI_AGENT](https://github.com/Jyotiraditya21-bug/OMNI_AGENT) | Parallel LangGraph agents with streamed execution feedback | [Live app](https://omni-agent-mu.vercel.app) |
 | [LuminateAI](https://github.com/Jyotiraditya21-bug/LuminateAI) | RAPTOR and corrective RAG for research-paper exploration | [Live app](https://luminate-ai-rag.vercel.app) |
 | [LLMBench](https://github.com/Jyotiraditya21-bug/LLMBench) | LLM evaluation, regression testing, cost analysis, and CI quality gates | [Project site](https://jyotiraditya21-bug.github.io/LLMBench/) |
-| [CRM CSV Importer](https://github.com/Jyotiraditya21-bug/CRM-CSV-IMPORTER) | Structured-output schema mapping and deterministic data normalization | [Live app](https://crm-csv-importer-phi.vercel.app) |
 | [RepoMind](https://github.com/Jyotiraditya21-bug/RepoMind) | Multi-agent repository analysis and developer onboarding | [Live app](https://jyotiraditya21-bug.github.io/RepoMind/) |
 | [Multilingual Sentiment Analysis](https://github.com/Jyotiraditya21-bug/multilingual_sentiment_analysis) | XLM-R classification with SHAP explanations and API/UI deployment | [Hugging Face demo](https://huggingface.co/spaces/jimmy2110/multilingual-sentiment) |
+| [MAC-SPOT](https://github.com/Jyotiraditya21-bug/MAC-SPOT) | Gemini-powered developer CLI for code assistance and macOS-aware ML guidance | [Project site](https://jyotiraditya21-bug.github.io/MAC-SPOT) |
+| [Portfolio](https://github.com/Jyotiraditya21-bug/portfolio) | Personal site presenting projects, skills, and engineering experience | [Live site](https://jyotiraditya.is-a.dev/) |
 
 ## Technical focus
 
