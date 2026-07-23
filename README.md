@@ -9,7 +9,7 @@
 
 
 
-**B.E. AI/ML @ LDCE Ahmedabad** · 6th Sem · Gujarat 🇮🇳
+**B.E. AI/ML @ LDCE(2027) Ahmedabad** · Gujarat 🇮🇳
 
 Obsessed with **LLMs, GenAI, Agentic AI, and MCP** — building systems that think, plan, and act. Deep into **Deep Learning, NLP, and ML** from first principles.
 
