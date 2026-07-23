@@ -1,4 +1,9 @@
-# Hi, I'm Jyotiraditya Parmar
+<div align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:6E40C9,100:58A6FF&height=180&section=header&text=Jyotiraditya%20Parmar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%2FML%20Engineer%20%E2%80%A2%20RAG%20%E2%80%A2%20Agentic%20Systems&descAlignY=57"
+    alt="Jyotiraditya Parmar — AI/ML Engineer"
+  />
+</div>
 
 AI/ML engineer focused on retrieval-augmented generation, agentic systems, and
 production LLM applications.
@@ -45,3 +50,10 @@ interfaces.
 - Exploring agent interoperability and the Model Context Protocol
 - Strengthening ML fundamentals through implementations and experiments
 - Open to AI/ML engineering internships and collaborative projects
+
+<div align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1400&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+reliable+AI+systems+from+first+principles;Open+to+AI%2FML+engineering+internships"
+    alt="Animated focus and availability"
+  />
+</div>
