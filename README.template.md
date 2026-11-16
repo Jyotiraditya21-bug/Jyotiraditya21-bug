@@ -36,17 +36,8 @@
 ## Metrics
 
 <div align="center" id="metrics">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=__GITHUB_USERNAME__&show_icons=true&hide_border=true&hide_title=true&include_all_commits=true&bg_color=0B0F14&text_color=CBD5E1&icon_color=67E8F9&ring_color=60A5FA">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=__GITHUB_USERNAME__&show_icons=true&hide_border=true&hide_title=true&include_all_commits=true&bg_color=FFFFFF&text_color=334155&icon_color=0891B2&ring_color=2563EB">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=__GITHUB_USERNAME__&show_icons=true&hide_border=true&hide_title=true&include_all_commits=true&bg_color=0B0F14&text_color=CBD5E1&icon_color=67E8F9&ring_color=60A5FA" alt="GitHub metrics">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=__GITHUB_USERNAME__&layout=compact&hide_border=true&hide_title=true&langs_count=8&bg_color=0B0F14&text_color=CBD5E1">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=__GITHUB_USERNAME__&layout=compact&hide_border=true&hide_title=true&langs_count=8&bg_color=FFFFFF&text_color=334155">
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=__GITHUB_USERNAME__&layout=compact&hide_border=true&hide_title=true&langs_count=8&bg_color=0B0F14&text_color=CBD5E1" alt="Language metrics">
-  </picture>
-  <br>
+  <img width="100%" src="assets/metrics.svg" alt="Repository and language metrics">
+  <br><br>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=__GITHUB_USERNAME__&hide_border=true&background=0B0F14&ring=60A5FA&fire=67E8F9&currStreakLabel=67E8F9&sideLabels=94A3B8&dates=64748B&currStreakNum=F8FAFC&sideNums=F8FAFC">
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=__GITHUB_USERNAME__&hide_border=true&background=FFFFFF&ring=2563EB&fire=0891B2&currStreakLabel=0891B2&sideLabels=475569&dates=64748B&currStreakNum=0F172A&sideNums=0F172A">

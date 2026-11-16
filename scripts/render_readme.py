@@ -5,7 +5,9 @@ from __future__ import annotations
 
 import json
 import os
+from collections import Counter
 from datetime import datetime, timezone
+from html import escape
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
@@ -25,7 +27,7 @@ def read_username() -> str:
     raise SystemExit("GITHUB_USERNAME is missing from .github/profile.env")
 
 
-def github_json(path: str) -> list[dict]:
+def github_json(path: str) -> object:
     token = os.getenv("GITHUB_TOKEN", "")
     headers = {
         "Accept": "application/vnd.github+json",
@@ -81,12 +83,64 @@ def recent_activity(username: str) -> str:
     return "\n".join(rows) or "- Public activity feed is ready for its first event."
 
 
+def write_metrics(username: str) -> None:
+    profile = github_json(f"/users/{username}")
+    repos = github_json(f"/users/{username}/repos?sort=updated&per_page=100&type=owner")
+    owned = [repo for repo in repos if not repo.get("fork")]
+    stars = sum(repo.get("stargazers_count", 0) for repo in owned)
+    forks = sum(repo.get("forks_count", 0) for repo in owned)
+    languages = Counter(repo.get("language") for repo in owned if repo.get("language"))
+    top_languages = languages.most_common(5)
+    language_total = sum(count for _, count in top_languages) or 1
+    colors = ["#67E8F9", "#60A5FA", "#A5B4FC", "#38BDF8", "#64748B"]
+    x = 64.0
+    segments = []
+    labels = []
+    for index, ((language, count), color) in enumerate(zip(top_languages, colors)):
+        width = 872 * count / language_total
+        segments.append(
+            f'<rect x="{x:.1f}" y="202" width="{width:.1f}" height="8" fill="{color}"/>'
+        )
+        label_x = 64 + index * 174
+        labels.append(
+            f'<circle cx="{label_x}" cy="242" r="4" fill="{color}"/>'
+            f'<text x="{label_x + 12}" y="247" class="label">{escape(language)}</text>'
+        )
+        x += width
+    svg = f'''<svg width="1000" height="280" viewBox="0 0 1000 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub repository metrics">
+  <style>
+    .kicker {{ font: 500 12px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 2px; fill: #64748B; }}
+    .value {{ font: 700 34px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #F8FAFC; }}
+    .caption {{ font: 500 12px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #94A3B8; }}
+    .label {{ font: 500 12px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #CBD5E1; }}
+  </style>
+  <rect x="1" y="1" width="998" height="278" rx="18" fill="#0B0F14" stroke="#1E293B" stroke-width="2"/>
+  <text x="64" y="48" class="kicker">REPOSITORY SIGNAL</text>
+  <path d="M64 66H936" stroke="#1E293B"/>
+  <g text-anchor="middle">
+    <text x="160" y="126" class="value">{profile.get('public_repos', len(owned))}</text><text x="160" y="151" class="caption">PUBLIC REPOS</text>
+    <text x="385" y="126" class="value">{stars}</text><text x="385" y="151" class="caption">STARS</text>
+    <text x="615" y="126" class="value">{forks}</text><text x="615" y="151" class="caption">FORKS</text>
+    <text x="840" y="126" class="value">{profile.get('followers', 0)}</text><text x="840" y="151" class="caption">FOLLOWERS</text>
+  </g>
+  <path d="M272 92V151M500 92V151M728 92V151" stroke="#1E293B"/>
+  <text x="64" y="187" class="kicker">PRIMARY LANGUAGES BY REPOSITORY</text>
+  <clipPath id="bar"><rect x="64" y="202" width="872" height="8" rx="4"/></clipPath>
+  <g clip-path="url(#bar)">{''.join(segments)}</g>
+  {''.join(labels)}
+</svg>'''
+    metrics_path = ROOT / "assets" / "metrics.svg"
+    metrics_path.parent.mkdir(parents=True, exist_ok=True)
+    metrics_path.write_text(svg, encoding="utf-8")
+
+
 def main() -> None:
     username = read_username()
     template = TEMPLATE.read_text(encoding="utf-8")
     try:
         repos = latest_repos(username)
         activity = recent_activity(username)
+        write_metrics(username)
     except (HTTPError, URLError, TimeoutError) as error:
         print(f"GitHub refresh unavailable; preserving current dynamic blocks: {error}")
         current = OUTPUT.read_text(encoding="utf-8") if OUTPUT.exists() else template

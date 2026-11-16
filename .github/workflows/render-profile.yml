@@ -36,13 +36,13 @@ jobs:
 
       - name: Commit changes when content moved
         run: |
-          if git diff --quiet -- README.md; then
-            echo "README is already current."
+          if git diff --quiet -- README.md assets/metrics.svg; then
+            echo "Profile assets are already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md assets/metrics.svg
           git commit -m "chore: refresh profile README"
           git push
 

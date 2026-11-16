@@ -1,0 +1,16 @@
+<svg width="1000" height="280" viewBox="0 0 1000 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Repository metrics">
+  <style>
+    .kicker { font: 500 12px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 2px; fill: #64748B; }
+    .value { font: 700 34px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #F8FAFC; }
+    .caption { font: 500 12px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #94A3B8; }
+  </style>
+  <rect x="1" y="1" width="998" height="278" rx="18" fill="#0B0F14" stroke="#1E293B" stroke-width="2"/>
+  <text x="64" y="48" class="kicker">REPOSITORY SIGNAL</text>
+  <path d="M64 66H936" stroke="#1E293B"/>
+  <text x="500" y="136" class="value" text-anchor="middle">SYNCING</text>
+  <text x="500" y="164" class="caption" text-anchor="middle">LIVE METRICS</text>
+  <rect x="64" y="202" width="872" height="8" rx="4" fill="#1E293B"/>
+  <rect x="64" y="202" width="280" height="8" rx="4" fill="#67E8F9">
+    <animate attributeName="x" values="64;656;64" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
