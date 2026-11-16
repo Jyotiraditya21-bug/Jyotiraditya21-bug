@@ -2,11 +2,11 @@
 
 ## Palette
 
-- Canvas: `#0D1117`
-- Surface: `#161B22`
-- Violet: `#7C3AED`
-- Cyan: `#22D3EE`
-- Lavender: `#A78BFA`
+- Canvas: `#0B0F14`
+- Surface: `#111827`
+- Blue: `#60A5FA`
+- Cyan: `#67E8F9`
+- Slate: `#94A3B8`
 - Snow: `#F8FAFC`
 
 ## Install

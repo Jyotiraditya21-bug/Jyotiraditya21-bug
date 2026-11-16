@@ -1,0 +1,21 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Build test ship animated header">
+  <defs>
+    <linearGradient id="bg" x1="100" y1="20" x2="1100" y2="340" gradientUnits="userSpaceOnUse"><stop stop-color="#111827"/><stop offset="1" stop-color="#0B0F14"/></linearGradient>
+    <linearGradient id="accent" x1="355" y1="0" x2="840" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#60A5FA"/><stop offset=".5" stop-color="#67E8F9"/><stop offset="1" stop-color="#A5B4FC"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#334155" stroke-opacity=".22"/></pattern>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="36"/></filter>
+  </defs>
+  <rect x="1" y="1" width="1198" height="358" rx="24" fill="url(#bg)" stroke="#1E293B" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="358" rx="24" fill="url(#grid)"/>
+  <circle cx="270" cy="175" r="120" fill="#2563EB" fill-opacity=".12" filter="url(#blur)"><animate attributeName="cx" values="270;340;270" dur="8s" repeatCount="indefinite"/></circle>
+  <circle cx="930" cy="170" r="110" fill="#22D3EE" fill-opacity=".1" filter="url(#blur)"><animate attributeName="cx" values="930;860;930" dur="9s" repeatCount="indefinite"/></circle>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="600" y="84" text-anchor="middle" fill="#64748B" font-size="15" letter-spacing="5">PROFILE / ENGINEERING LOG</text>
+    <text x="600" y="184" text-anchor="middle" fill="#F8FAFC" font-size="68" font-weight="700" letter-spacing="2">BUILD. TEST. SHIP.</text>
+    <rect x="355" y="212" width="490" height="3" rx="1.5" fill="url(#accent)"><animate attributeName="width" values="0;490;490" dur="3.5s" repeatCount="indefinite"/><animate attributeName="x" values="600;355;355" dur="3.5s" repeatCount="indefinite"/></rect>
+    <text x="600" y="270" text-anchor="middle" fill="#94A3B8" font-size="18" letter-spacing="3">DESIGNING SYSTEMS THAT HOLD UP</text>
+    <circle cx="508" cy="315" r="4" fill="#60A5FA"/><circle cx="540" cy="315" r="4" fill="#67E8F9"/><circle cx="572" cy="315" r="4" fill="#A5B4FC"/>
+    <path d="M604 315H692" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="604" cy="315" r="3" fill="#67E8F9"><animate attributeName="cx" from="604" to="692" dur="2.2s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
