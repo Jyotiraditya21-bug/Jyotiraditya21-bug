@@ -1,16 +1,22 @@
-<svg width="1000" height="280" viewBox="0 0 1000 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Repository metrics">
+<svg width="1000" height="280" viewBox="0 0 1000 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub repository metrics">
   <style>
     .kicker { font: 500 12px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 2px; fill: #64748B; }
     .value { font: 700 34px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #F8FAFC; }
     .caption { font: 500 12px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #94A3B8; }
+    .label { font: 500 12px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #CBD5E1; }
   </style>
   <rect x="1" y="1" width="998" height="278" rx="18" fill="#0B0F14" stroke="#1E293B" stroke-width="2"/>
   <text x="64" y="48" class="kicker">REPOSITORY SIGNAL</text>
   <path d="M64 66H936" stroke="#1E293B"/>
-  <text x="500" y="136" class="value" text-anchor="middle">SYNCING</text>
-  <text x="500" y="164" class="caption" text-anchor="middle">LIVE METRICS</text>
-  <rect x="64" y="202" width="872" height="8" rx="4" fill="#1E293B"/>
-  <rect x="64" y="202" width="280" height="8" rx="4" fill="#67E8F9">
-    <animate attributeName="x" values="64;656;64" dur="2.4s" repeatCount="indefinite"/>
-  </rect>
+  <g text-anchor="middle">
+    <text x="160" y="126" class="value">28</text><text x="160" y="151" class="caption">PUBLIC REPOS</text>
+    <text x="385" y="126" class="value">12</text><text x="385" y="151" class="caption">STARS</text>
+    <text x="615" y="126" class="value">1</text><text x="615" y="151" class="caption">FORKS</text>
+    <text x="840" y="126" class="value">11</text><text x="840" y="151" class="caption">FOLLOWERS</text>
+  </g>
+  <path d="M272 92V151M500 92V151M728 92V151" stroke="#1E293B"/>
+  <text x="64" y="187" class="kicker">PRIMARY LANGUAGES BY REPOSITORY</text>
+  <clipPath id="bar"><rect x="64" y="202" width="872" height="8" rx="4"/></clipPath>
+  <g clip-path="url(#bar)"><rect x="64.0" y="202" width="490.5" height="8" fill="#67E8F9"/><rect x="554.5" y="202" width="218.0" height="8" fill="#60A5FA"/><rect x="772.5" y="202" width="109.0" height="8" fill="#A5B4FC"/><rect x="881.5" y="202" width="54.5" height="8" fill="#38BDF8"/></g>
+  <circle cx="64" cy="242" r="4" fill="#67E8F9"/><text x="76" y="247" class="label">Python</text><circle cx="238" cy="242" r="4" fill="#60A5FA"/><text x="250" y="247" class="label">TypeScript</text><circle cx="412" cy="242" r="4" fill="#A5B4FC"/><text x="424" y="247" class="label">JavaScript</text><circle cx="586" cy="242" r="4" fill="#38BDF8"/><text x="598" y="247" class="label">HTML</text>
 </svg>
