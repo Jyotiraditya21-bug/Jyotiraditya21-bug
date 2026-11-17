@@ -79,10 +79,10 @@
     <td width="50%" valign="top">
       <strong>Public activity</strong><br><br>
       <!-- RECENT_ACTIVITY:START -->
-- Pushed to [`Jyotiraditya21-bug/pause-stress-mvp`](https://github.com/Jyotiraditya21-bug/pause-stress-mvp)
-- Created a ref in [`Jyotiraditya21-bug/pause-stress-mvp`](https://github.com/Jyotiraditya21-bug/pause-stress-mvp)
-- Created a ref in [`Jyotiraditya21-bug/mlflow`](https://github.com/Jyotiraditya21-bug/mlflow)
-- Updated a pull request in [`mlflow/mlflow`](https://github.com/mlflow/mlflow)
+- Pushed to [`Jyotiraditya21-bug/LuminateAI`](https://github.com/Jyotiraditya21-bug/LuminateAI)
+- Created a ref in [`Jyotiraditya21-bug/portfolio`](https://github.com/Jyotiraditya21-bug/portfolio)
+- Created a ref in [`Jyotiraditya21-bug/RepoMind`](https://github.com/Jyotiraditya21-bug/RepoMind)
+- Updated a pull request in [`Jyotiraditya21-bug/portfolio`](https://github.com/Jyotiraditya21-bug/portfolio)
       <!-- RECENT_ACTIVITY:END -->
     </td>
   </tr>
@@ -101,7 +101,7 @@
   <br><br>
   <img src="https://komarev.com/ghpvc/?username=Jyotiraditya21-bug&label=PROFILE+VIEWS&color=1E293B&style=flat-square" alt="Profile views">
   <br><br>
-  <sub>UPDATED 16 Nov 2026 · 09:15 UTC</sub>
+  <sub>UPDATED 17 Nov 2026 · 11:58 UTC</sub>
 </div>
 
 <img width="100%" src="assets/divider.svg" alt="Section divider">
