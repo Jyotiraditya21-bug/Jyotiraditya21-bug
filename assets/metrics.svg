@@ -9,7 +9,7 @@
   <text x="64" y="48" class="kicker">REPOSITORY SIGNAL</text>
   <path d="M64 66H936" stroke="#1E293B"/>
   <g text-anchor="middle">
-    <text x="160" y="126" class="value">28</text><text x="160" y="151" class="caption">PUBLIC REPOS</text>
+    <text x="160" y="126" class="value">31</text><text x="160" y="151" class="caption">PUBLIC REPOS</text>
     <text x="385" y="126" class="value">12</text><text x="385" y="151" class="caption">STARS</text>
     <text x="615" y="126" class="value">1</text><text x="615" y="151" class="caption">FORKS</text>
     <text x="840" y="126" class="value">11</text><text x="840" y="151" class="caption">FOLLOWERS</text>
