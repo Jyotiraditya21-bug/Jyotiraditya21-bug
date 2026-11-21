@@ -78,10 +78,10 @@
     <td width="50%" valign="top">
       <strong>Public activity</strong><br><br>
       <!-- RECENT_ACTIVITY:START -->
+- Pushed to [`Jyotiraditya21-bug/lmms-eval`](https://github.com/Jyotiraditya21-bug/lmms-eval)
+- Commented in [`EvolvingLMMs-Lab/lmms-eval`](https://github.com/EvolvingLMMs-Lab/lmms-eval)
 - Updated a pull request in [`EvolvingLMMs-Lab/lmms-eval`](https://github.com/EvolvingLMMs-Lab/lmms-eval)
 - Forked [`EvolvingLMMs-Lab/lmms-eval`](https://github.com/EvolvingLMMs-Lab/lmms-eval)
-- Commented in [`EvolvingLMMs-Lab/lmms-eval`](https://github.com/EvolvingLMMs-Lab/lmms-eval)
-- Forked [`openslop/openslop`](https://github.com/openslop/openslop)
       <!-- RECENT_ACTIVITY:END -->
     </td>
   </tr>
@@ -100,7 +100,7 @@
   <br><br>
   <img src="https://komarev.com/ghpvc/?username=Jyotiraditya21-bug&label=PROFILE+VIEWS&color=1E293B&style=flat-square" alt="Profile views">
   <br><br>
-  <sub>UPDATED 20 Nov 2026 · 11:48 UTC</sub>
+  <sub>UPDATED 21 Nov 2026 · 11:13 UTC</sub>
 </div>
 
 <img width="100%" src="assets/divider.svg" alt="Section divider">
