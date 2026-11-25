@@ -73,16 +73,15 @@
       <strong>Recently updated</strong><br><br>
       <!-- LATEST_REPOS:START -->
 - [`pixelpilot`](https://github.com/Jyotiraditya21-bug/pixelpilot) · Python · ★ 0
-- [`pause-stress-mvp`](https://github.com/Jyotiraditya21-bug/pause-stress-mvp) · JavaScript · ★ 0
       <!-- LATEST_REPOS:END -->
     </td>
     <td width="50%" valign="top">
       <strong>Public activity</strong><br><br>
       <!-- RECENT_ACTIVITY:START -->
-- Pushed to [`Jyotiraditya21-bug/pixelpilot`](https://github.com/Jyotiraditya21-bug/pixelpilot)
-- Starred [`EvolvingLMMs-Lab/lmms-eval`](https://github.com/EvolvingLMMs-Lab/lmms-eval)
-- Created a ref in [`Jyotiraditya21-bug/pixelpilot`](https://github.com/Jyotiraditya21-bug/pixelpilot)
-- Updated a pull request in [`EvolvingLMMs-Lab/lmms-eval`](https://github.com/EvolvingLMMs-Lab/lmms-eval)
+- Pushed to [`Jyotiraditya21-bug/OMNI_AGENT`](https://github.com/Jyotiraditya21-bug/OMNI_AGENT)
+- Commented in [`huggingface/smolagents`](https://github.com/huggingface/smolagents)
+- Forked [`langchain-ai/langchain`](https://github.com/langchain-ai/langchain)
+- Updated an issue in [`Jyotiraditya21-bug/OMNI_AGENT`](https://github.com/Jyotiraditya21-bug/OMNI_AGENT)
       <!-- RECENT_ACTIVITY:END -->
     </td>
   </tr>
@@ -101,7 +100,7 @@
   <br><br>
   <img src="https://komarev.com/ghpvc/?username=Jyotiraditya21-bug&label=PROFILE+VIEWS&color=1E293B&style=flat-square" alt="Profile views">
   <br><br>
-  <sub>UPDATED 24 Nov 2026 · 13:50 UTC</sub>
+  <sub>UPDATED 25 Nov 2026 · 13:03 UTC</sub>
 </div>
 
 <img width="100%" src="assets/divider.svg" alt="Section divider">
