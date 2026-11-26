@@ -78,10 +78,10 @@
     <td width="50%" valign="top">
       <strong>Public activity</strong><br><br>
       <!-- RECENT_ACTIVITY:START -->
-- Pushed to [`Jyotiraditya21-bug/OMNI_AGENT`](https://github.com/Jyotiraditya21-bug/OMNI_AGENT)
-- Commented in [`huggingface/smolagents`](https://github.com/huggingface/smolagents)
-- Forked [`langchain-ai/langchain`](https://github.com/langchain-ai/langchain)
-- Updated an issue in [`Jyotiraditya21-bug/OMNI_AGENT`](https://github.com/Jyotiraditya21-bug/OMNI_AGENT)
+- Created a ref in [`Jyotiraditya21-bug/OMNI_AGENT`](https://github.com/Jyotiraditya21-bug/OMNI_AGENT)
+- Commented in [`pydantic/pydantic-ai`](https://github.com/pydantic/pydantic-ai)
+- Updated an issue in [`Jyotiraditya21-bug/InSightForge`](https://github.com/Jyotiraditya21-bug/InSightForge)
+- Updated a pull request in [`Jyotiraditya21-bug/InSightForge`](https://github.com/Jyotiraditya21-bug/InSightForge)
       <!-- RECENT_ACTIVITY:END -->
     </td>
   </tr>
@@ -100,7 +100,7 @@
   <br><br>
   <img src="https://komarev.com/ghpvc/?username=Jyotiraditya21-bug&label=PROFILE+VIEWS&color=1E293B&style=flat-square" alt="Profile views">
   <br><br>
-  <sub>UPDATED 25 Nov 2026 · 13:03 UTC</sub>
+  <sub>UPDATED 26 Nov 2026 · 12:43 UTC</sub>
 </div>
 
 <img width="100%" src="assets/divider.svg" alt="Section divider">
