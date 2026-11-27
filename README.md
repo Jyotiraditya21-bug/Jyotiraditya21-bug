@@ -78,10 +78,10 @@
     <td width="50%" valign="top">
       <strong>Public activity</strong><br><br>
       <!-- RECENT_ACTIVITY:START -->
-- Created a ref in [`Jyotiraditya21-bug/OMNI_AGENT`](https://github.com/Jyotiraditya21-bug/OMNI_AGENT)
-- Commented in [`pydantic/pydantic-ai`](https://github.com/pydantic/pydantic-ai)
-- Updated an issue in [`Jyotiraditya21-bug/InSightForge`](https://github.com/Jyotiraditya21-bug/InSightForge)
-- Updated a pull request in [`Jyotiraditya21-bug/InSightForge`](https://github.com/Jyotiraditya21-bug/InSightForge)
+- Commented in [`run-llama/llama_index`](https://github.com/run-llama/llama_index)
+- Created a ref in [`Jyotiraditya21-bug/InSightForge`](https://github.com/Jyotiraditya21-bug/InSightForge)
+- Updated a pull request in [`Jyotiraditya21-bug/LLMBench`](https://github.com/Jyotiraditya21-bug/LLMBench)
+- Updated an issue in [`Jyotiraditya21-bug/LLMBench`](https://github.com/Jyotiraditya21-bug/LLMBench)
       <!-- RECENT_ACTIVITY:END -->
     </td>
   </tr>
@@ -100,7 +100,7 @@
   <br><br>
   <img src="https://komarev.com/ghpvc/?username=Jyotiraditya21-bug&label=PROFILE+VIEWS&color=1E293B&style=flat-square" alt="Profile views">
   <br><br>
-  <sub>UPDATED 26 Nov 2026 · 12:43 UTC</sub>
+  <sub>UPDATED 27 Nov 2026 · 12:33 UTC</sub>
 </div>
 
 <img width="100%" src="assets/divider.svg" alt="Section divider">
